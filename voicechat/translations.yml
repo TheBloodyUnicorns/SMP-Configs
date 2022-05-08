@@ -1,0 +1,17 @@
+player_not_found: Spieler nicht gefunden
+client_not_connected: Client nicht mit dem Voice-Chat verbunden
+sending_packet: Paket senden...
+received_packet: Paket innerhalb von %s ms erhalten
+request_timed_out: Zeitüberschreitung
+packet_sent: Paket gesendet. Warten auf Antwort...
+failed_to_send_packet: 'Senden von Paket fehlgeschlagen: %s'
+player_not_connected: Spieler nicht mit dem Voice-Chat verbunden
+not_connected: Du bist nicht mit dem Voice-Chat verbunden
+not_compatible: |-
+  Your voice chat version is not compatible with the servers version.
+  Please install version %s of %s.
+placeholder_api_prefix_uses_voicechat: ��a
+placeholder_api_prefix_no_voicechat: ��c
+placeholder_api_prefix_disabled: ��c
+voicechat_needed_command: You need to have %s installed to use this command
+command_as_player: This command can only be executed as a player

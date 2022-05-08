@@ -1,0 +1,14 @@
+uuid=c8428975-a175-441c-8f72-5c65021b89d8
+lastOnline=1651964774362
+registered=1651959309543
+joinedTownAt=1651963362522
+isNPC=false
+title=AuchGott
+surname=81
+town=91
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=[["towny_stringdf","townyresources_extractionRecord","1-leather, 9-mutton, 4-beef, 15-rotten_flesh, 1-spider_eyes, 9-iron, 2-string, 2-feathers, 16-lapis_Lazuli, 6-wool, 25-common_dirt, 4-bones, 16-copper, 3-common_rocks, 3-bamboo, 3-wood, 1-chicken"]]

@@ -1,0 +1,14 @@
+uuid=188e67f1-ff31-4aab-82dd-da5be8db0ca4
+lastOnline=1652002823840
+registered=1651837981929
+joinedTownAt=1651963600494
+isNPC=false
+title=Expedition
+surname=Gott
+town=91
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=denyAll
+metadata=[["towny_stringdf","townyresources_extractionRecord","2-gunpowder, 3-wood, 1-kelp, 3-iron, 10-common_dirt, 2-bones, 4-clay, 5-rotten_flesh, 2-string, 16-copper"]]

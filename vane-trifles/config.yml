@@ -1,0 +1,566 @@
+# vim: set tabstop=2 softtabstop=0 expandtab shiftwidth=2:
+# This config file will automatically be updated, as long
+# as there are no incompatible changes between versions.
+# This means that additional comments will not be preserved!
+
+# The language for this module. The corresponding language file must be named
+# lang-{lang}.yml. Specifying 'inherit' will load the value set for vane-core.
+# Default: "inherit"
+lang: "inherit"
+
+# The module will only add functionality if this is set to true.
+# Default: true
+enabled: true
+
+# Enable plugin metrics via bStats. You can opt-out here or via the global bStats
+# configuration. All collected information is completely anonymous and publicly
+# available.
+# Default: true
+metrics_enabled: true
+
+better_harvesting:
+  # Enables better harvesting. Right clicking on grown crops with bare hands will
+  # then harvest the plant and also replant it.
+  # Default: true
+  enabled: true
+
+chest_sorting:
+  # Enables chest sorting when a nearby button is pressed.
+  # Default: true
+  enabled: false
+
+  # Chest sorting cooldown in milliseconds.
+  # Valid values: [0,)
+  # Default: 1000
+  cooldown: 1000
+
+  # Chest sorting radius in X-direction from the button (left-right when looking
+  # at the button). A radius of 0 means a column of the block including the
+  # button. It is advised to NEVER set the three radius values to more than THREE
+  # (3), as sorting a huge area of chests can lead to SEVERE lag! Ideally always
+  # keep the Z-radius set to 0 or 1, while only adjusting X and Y. You've been
+  # warned.
+  # Valid values: [0,16]
+  # Default: 1
+  radius_x: 1
+
+  # Chest sorting radius in Y-direction from the button (up-down when looking at
+  # the button - this can be a horizontal direction if the button is on the
+  # ground). A radius of 0 means a column of the block including the button. It is
+  # advised to NEVER set the three radius values to more than THREE (3), as
+  # sorting a huge area of chests can lead to SEVERE lag! Ideally always keep the
+  # Z-radius set to 0 or 1, while only adjusting X and Y. You've been warned.
+  # Valid values: [0,16]
+  # Default: 1
+  radius_y: 1
+
+  # Chest sorting radius in Z-direction from the button (into/out-of the attached
+  # block). A radius of 0 means a column of the block including the button. It is
+  # advised to NEVER set the three radius values to more than THREE (3), as
+  # sorting a huge area of chests can lead to SEVERE lag! Ideally always keep the
+  # Z-radius set to 0 or 1, while only adjusting X and Y. You've been warned.
+  # Valid values: [0,16]
+  # Default: 1
+  radius_z: 1
+
+command_heads:
+  # Enable command heads
+  # Default: true
+  enabled: false
+
+  # Currency material used to buy heads.
+  # Default: "minecraft:bone"
+  currency: "minecraft:bone"
+
+  # Price (in currency) per head. Set to 0 for free heads.
+  # Valid values: [0,)
+  # Default: 1
+  price_per_head: 1
+
+doubledoor:
+  # Enable updating of double doors automatically when one of the doors is
+  # changed.
+  # Default: true
+  enabled: true
+
+fast_walking:
+  # Enable faster walking on certain materials.
+  # Default: true
+  enabled: true
+
+  # Speed effect duration in milliseconds.
+  # Valid values: [50,5000]
+  # Default: 2000
+  duration: 2000
+
+  # Materials on which players will walk faster.
+  # Default:
+  #   - "minecraft:dirt_path"
+  materials:
+    - "minecraft:dirt_path"
+
+  # Speed effect level.
+  # Valid values: [1,10]
+  # Default: 2
+  speed_level: 2
+
+item_empty_xp_bottle:
+  # Enable item empty_xp_bottle
+  # Default: true
+  enabled: false
+
+  # Percentage of lost experience while bottling. For 10% loss, bottling 30 levels
+  # will require 30 * (1 / (1 - 0.1)) = 33.33 levels
+  # Valid values: [0.0,0.999]
+  # Default: 0.3
+  loss_percentage: 0.3
+
+  # Whether recipes for this item variant should be registered (if any. Only
+  # disable this if you want to have the item itself enabled, but want to use
+  # something else to make it accessible to your players
+  # Default: true
+  register_recipes: true
+
+item_file:
+  # Enable item file
+  # Default: true
+  enabled: true
+
+  diamond:
+    # Enable 'diamond' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 2.0
+    attack_damage: 2.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 5.0
+    attack_speed: 5.0
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  golden:
+    # Enable 'golden' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 1.0
+    attack_damage: 1.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 6.0
+    attack_speed: 6.0
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  iron:
+    # Enable 'iron' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 1.0
+    attack_damage: 1.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 4.0
+    attack_speed: 4.0
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  netherite:
+    # Enable 'netherite' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 3.0
+    attack_damage: 3.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 5.0
+    attack_speed: 5.0
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  stone:
+    # Enable 'stone' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 1.0
+    attack_damage: 1.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 3.0
+    attack_speed: 3.0
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  wooden:
+    # Enable 'wooden' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 1.0
+    attack_damage: 1.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 2.0
+    attack_speed: 2.0
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+item_home_scroll:
+  # Enable item home_scroll
+  # Default: true
+  enabled: false
+
+  # Base amount of uses a scroll has before breaking
+  # Valid values: [0,)
+  # Default: 25
+  base_durability: 25
+
+  # Cooldown in milliseconds until another scroll can be used.
+  # Valid values: [0,)
+  # Default: 10000
+  cooldown: 10000
+
+  # A cooldown in milliseconds that is applied when the player takes damage
+  # (prevents combat logging). Set to 0 to allow combat logging.
+  # Valid values: [0,)
+  # Default: 15000
+  damage_cooldown: 15000
+
+  # Whether recipes for this item variant should be registered (if any. Only
+  # disable this if you want to have the item itself enabled, but want to use
+  # something else to make it accessible to your players
+  # Default: true
+  register_recipes: true
+
+item_reinforced_elytra:
+  # Enable item reinforced_elytra
+  # Default: true
+  enabled: false
+
+  netherite:
+    # Enable 'netherite' item variant
+    # Default: true
+    enabled: true
+
+    # Amount of defense points.
+    # Valid values: [0.0,)
+    # Default: 6.0
+    defense_points: 6.0
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+item_sickle:
+  # Enable item sickle
+  # Default: true
+  enabled: true
+
+  diamond:
+    # Enable 'diamond' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 5.0
+    attack_damage: 5.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 4.0
+    attack_speed: 4.0
+
+    # Harvesting radius.
+    # Valid values: [0,6]
+    # Default: 2
+    harvest_radius: 2
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  golden:
+    # Enable 'golden' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 3.0
+    attack_damage: 3.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 5.0
+    attack_speed: 5.0
+
+    # Harvesting radius.
+    # Valid values: [0,6]
+    # Default: 3
+    harvest_radius: 3
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  iron:
+    # Enable 'iron' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 4.0
+    attack_damage: 4.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 3.0
+    attack_speed: 3.0
+
+    # Harvesting radius.
+    # Valid values: [0,6]
+    # Default: 2
+    harvest_radius: 2
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  netherite:
+    # Enable 'netherite' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 6.0
+    attack_damage: 6.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 4.0
+    attack_speed: 4.0
+
+    # Harvesting radius.
+    # Valid values: [0,6]
+    # Default: 2
+    harvest_radius: 2
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  stone:
+    # Enable 'stone' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 3.0
+    attack_damage: 3.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 2.0
+    attack_speed: 2.0
+
+    # Harvesting radius.
+    # Valid values: [0,6]
+    # Default: 1
+    harvest_radius: 1
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  wooden:
+    # Enable 'wooden' item variant
+    # Default: true
+    enabled: true
+
+    # Attack damage modifier.
+    # Valid values: Any double
+    # Default: 2.0
+    attack_damage: 2.0
+
+    # Attack speed modifier.
+    # Valid values: Any double
+    # Default: 1.0
+    attack_speed: 1.0
+
+    # Harvesting radius.
+    # Valid values: [0,6]
+    # Default: 1
+    harvest_radius: 1
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+item_unstable_scroll:
+  # Enable item unstable_scroll
+  # Default: true
+  enabled: false
+
+  # Base amount of uses a scroll has before breaking
+  # Valid values: [0,)
+  # Default: 25
+  base_durability: 25
+
+  # Cooldown in milliseconds until another scroll can be used.
+  # Valid values: [0,)
+  # Default: 6000
+  cooldown: 6000
+
+  # A cooldown in milliseconds that is applied when the player takes damage
+  # (prevents combat logging). Set to 0 to allow combat logging.
+  # Valid values: [0,)
+  # Default: 15000
+  damage_cooldown: 15000
+
+  # Whether recipes for this item variant should be registered (if any. Only
+  # disable this if you want to have the item itself enabled, but want to use
+  # something else to make it accessible to your players
+  # Default: true
+  register_recipes: true
+
+item_xp_bottle:
+  # Enable item xp_bottle
+  # Default: true
+  enabled: false
+
+  large:
+    # Enable 'large' item variant
+    # Default: true
+    enabled: true
+
+    # Level capacity.
+    # Valid values: Any int
+    # Default: 30
+    capacity: 30
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  medium:
+    # Enable 'medium' item variant
+    # Default: true
+    enabled: true
+
+    # Level capacity.
+    # Valid values: Any int
+    # Default: 20
+    capacity: 20
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  small:
+    # Enable 'small' item variant
+    # Default: true
+    enabled: true
+
+    # Level capacity.
+    # Valid values: Any int
+    # Default: 10
+    capacity: 10
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+recipe_unlock:
+  # Unlocks all recipes when a player joins.
+  # Default: true
+  enabled: true
+
+repair_cost_limiter:
+  # Removes the cost limit on the anvil for all recipes. This means even if the
+  # client shows 'Too Expensive' in the anvil, the result may still be crafted, as
+  # long as the player has the required amount of levels (which unfortunately will
+  # not be shown).
+  # Default: true
+  enabled: false
+
+  # Limit anvil crafting cost. Set < 40 to remove 'Too Expensive' altogether.
+  # (Costs greater than 40 will still be craftable, even if it shows 'Too
+  # Expensive')
+  # Valid values: [0,)
+  # Default: 39
+  max_repair_cost: 39
+
+# DO NOT CHANGE! The version of this config file. Used to determine if the config
+# needs to be updated.
+version: 4

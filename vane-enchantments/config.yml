@@ -1,0 +1,356 @@
+# vim: set tabstop=2 softtabstop=0 expandtab shiftwidth=2:
+# This config file will automatically be updated, as long
+# as there are no incompatible changes between versions.
+# This means that additional comments will not be preserved!
+
+# The language for this module. The corresponding language file must be named
+# lang-{lang}.yml. Specifying 'inherit' will load the value set for vane-core.
+# Default: "inherit"
+lang: "inherit"
+
+# The module will only add functionality if this is set to true.
+# Default: true
+enabled: false
+
+# Enable plugin metrics via bStats. You can opt-out here or via the global bStats
+# configuration. All collected information is completely anonymous and publicly
+# available.
+# Default: true
+metrics_enabled: false
+
+command_enchant:
+  # Enable command enchant
+  # Default: true
+  enabled: false
+
+enchantment_angel:
+  # Enable enchantment angel
+  # Default: true
+  enabled: false
+
+  # Acceleration percentage. Each tick, the current flying speed is increased X
+  # percent towards the target speed. Low values (~0.1) typically result in a
+  # smooth acceleration curve and a natural feeling.
+  # Valid values: [0.0,1.0]
+  # Default: 0.1
+  acceleration_percentage: 0.1
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+  # Flying speed in blocks per second for each enchantment level.
+  # Valid values: [0.0,)
+  # Default:
+  #   - 0.7
+  #   - 1.1
+  #   - 1.4
+  #   - 1.7
+  #   - 2.0
+  speed:
+    - 0.7
+    - 1.1
+    - 1.4
+    - 1.7
+    - 2.0
+
+enchantment_careless:
+  # Enable enchantment careless
+  # Default: true
+  enabled: false
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_grappling_hook:
+  # Enable enchantment grappling_hook
+  # Default: true
+  enabled: false
+
+  # Ideal grappling distance for maximum grapple strength. Strength increases
+  # rapidly before, and falls of slowly after.
+  # Valid values: [2.0,50.0]
+  # Default: 16.0
+  ideal_distance: 16.0
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+  # Grappling strength for each enchantment level.
+  # Valid values: [0.0,)
+  # Default:
+  #   - 1.6
+  #   - 2.1
+  #   - 2.7
+  strength:
+    - 1.6
+    - 2.1
+    - 2.7
+
+enchantment_hell_bent:
+  # Enable enchantment hell_bent
+  # Default: true
+  enabled: false
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_leafchopper:
+  # Enable enchantment leafchopper
+  # Default: true
+  enabled: false
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_rake:
+  # Enable enchantment rake
+  # Default: true
+  enabled: false
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_seeding:
+  # Enable enchantment seeding
+  # Default: true
+  enabled: false
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_soulbound:
+  # Enable enchantment soulbound
+  # Default: true
+  enabled: false
+
+  # Window to allow Soulbound item drop immediately after a previous drop in
+  # milliseconds
+  # Valid values: [0,)
+  # Default: 2000
+  cooldown: 2000
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_take_off:
+  # Enable enchantment take_off
+  # Default: true
+  enabled: false
+
+  # Boost strength for each enchantment level.
+  # Valid values: [0.0,)
+  # Default:
+  #   - 0.2
+  #   - 0.4
+  #   - 0.6
+  boost_strengths:
+    - 0.2
+    - 0.4
+    - 0.6
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_unbreakable:
+  # Enable enchantment unbreakable
+  # Default: true
+  enabled: false
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+enchantment_wings:
+  # Enable enchantment wings
+  # Default: true
+  enabled: false
+
+  # Boost cooldown in milliseconds for each enchantment level.
+  # Valid values: [0,)
+  # Default:
+  #   - 7000
+  #   - 5000
+  #   - 3500
+  #   - 2800
+  boost_cooldowns:
+    - 7000
+    - 5000
+    - 3500
+    - 2800
+
+  # Boost strength for each enchantment level.
+  # Valid values: [0.0,)
+  # Default:
+  #   - 0.4
+  #   - 0.47
+  #   - 0.54
+  #   - 0.6
+  boost_strengths:
+    - 0.4
+    - 0.47
+    - 0.54
+    - 0.6
+
+  # Whether loot tables for this enchantment should be registered (if any).
+  # Default: true
+  register_loot_tables: true
+
+  # Whether recipes for this enchantment should be registered (if any). Only
+  # disable this if you want to have the enchantment itself enabled, but want to
+  # use something else to make it accessible to your players.
+  # Default: true
+  register_recipes: true
+
+item_ancient_tome:
+  # Enable item ancient_tome
+  # Default: true
+  enabled: false
+
+  book:
+    # Enable 'book' item variant
+    # Default: true
+    enabled: true
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  enchanted_book:
+    # Enable 'enchanted_book' item variant
+    # Default: true
+    enabled: true
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+item_ancient_tome_of_knowledge:
+  # Enable item ancient_tome_of_knowledge
+  # Default: true
+  enabled: false
+
+  book:
+    # Enable 'book' item variant
+    # Default: true
+    enabled: true
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  enchanted_book:
+    # Enable 'enchanted_book' item variant
+    # Default: true
+    enabled: true
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+item_ancient_tome_of_the_gods:
+  # Enable item ancient_tome_of_the_gods
+  # Default: true
+  enabled: false
+
+  book:
+    # Enable 'book' item variant
+    # Default: true
+    enabled: true
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+  enchanted_book:
+    # Enable 'enchanted_book' item variant
+    # Default: true
+    enabled: true
+
+    # Whether recipes for this item variant should be registered (if any. Only
+    # disable this if you want to have the item itself enabled, but want to use
+    # something else to make it accessible to your players
+    # Default: true
+    register_recipes: true
+
+# DO NOT CHANGE! The version of this config file. Used to determine if the config
+# needs to be updated.
+version: 1
