@@ -8,10 +8,11 @@ failed_to_send_packet: 'Senden von Paket fehlgeschlagen: %s'
 player_not_connected: Spieler nicht mit dem Voice-Chat verbunden
 not_connected: Du bist nicht mit dem Voice-Chat verbunden
 not_compatible: |-
-  Your voice chat version is not compatible with the servers version.
-  Please install version %s of %s.
+  Deine Voice-Chat-Version ist nicht mit der des Servers kompatibel.
+  Bitte installiere folgende Version %s of %s.
+  Falls du hilfe brauchst, wende dich an einen Administrator.
 placeholder_api_prefix_uses_voicechat: ��a
 placeholder_api_prefix_no_voicechat: ��c
 placeholder_api_prefix_disabled: ��c
-voicechat_needed_command: You need to have %s installed to use this command
-command_as_player: This command can only be executed as a player
+voicechat_needed_command: Du musst %s installiert haben, um diesen Befehl auszuführen!
+command_as_player: Dieser Befehl kann nur von einen Spieler ausgeführt werden!
