@@ -50,6 +50,9 @@ database:
   
   
   
+  
+  
+  
  
   # SQL database connection details (IF set to use mysql).
   sql:
@@ -60,6 +63,9 @@ database:
     username: root
     password: ''
     flags: ?verifyServerCertificate=false&useSSL=false&useUnicode=true&characterEncoding=utf-8
+    
+    
+    
     
     
     

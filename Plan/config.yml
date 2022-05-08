@@ -4,7 +4,7 @@
 # https://github.com/plan-player-analytics/Plan/wiki/Bukkit-Configuration
 # -----------------------------------------------------
 Server:
-    ServerName: Plan
+    ServerName: TBU-SMP
 # -----------------------------------------------------
 Plugin:
     Logging:
@@ -20,6 +20,7 @@ Plugin:
         Notify_about_DEV_releases: false
     Configuration:
         Allow_proxy_to_manage_settings: true
+    Frontend_BETA: false
 # -----------------------------------------------------
 # Supported databases: SQLite, MySQL
 # -----------------------------------------------------
@@ -132,8 +133,8 @@ Display_options:
     # More information about Themes:
     # https://github.com/plan-player-analytics/Plan/wiki/Themes
     Theme: default
-    # Can use ${playerName} or ${playerUUID}
-    Player_head_image_url: "https://cravatar.eu/helmavatar/${playerUUID}/120.png"
+    # Can use ${playerName} or ${playerUUID} or ${playerUUIDNoDash}
+    Player_head_image_url: "https://crafatar.com/avatars/${playerUUID}?size=120&default=MHF_Steve&overlay"
     Sessions:
         Show_on_page: 50
         # By Default World playtime pie is ordered alphabetically.
@@ -235,46 +236,15 @@ Plugins:
         Enabled: true
     PlaceholderAPI:
         Load_these_placeholders_on_join:
-          - %plan_server_uuid%
+          - "%plan_server_uuid%"
         Tracked_player_placeholders:
-          - %example_placeholder%
+          - "%example_placeholder%"
         Enabled: true
     Towny:
         HideTowns:
           - ExampleTown
         Enabled: true
-# The files are placed in /Plan/web/ if the setting is 'true' when accessed.
 Customized_files:
     Path: "web"
     # Web dev mode enables all customized files and disables webserver resource cache for instant changes on browser refresh.
     Enable_web_dev_mode: false
-    Plan:
-        css/noauth,css: false
-        css/querybutton,css: false
-        css/sb-admin-2,css: false
-        css/style,css: false
-        favicon,ico: false
-        img/Flaticon_circle,png: false
-        js/color-selector,js: false
-        js/domUtils,js: false
-        js/graphs,js: false
-        js/pingTable,js: false
-        js/sb-admin-2,js: false
-        js/server-values,js: false
-        js/sessionAccordion,js: false
-        js/xmlhttprequests,js: false
-        server,html: false
-        vendor/datatables/datatables,min,css: false
-        vendor/datatables/datatables,min,js: false
-        vendor/fontawesome-free/css/all,min,css: false
-        vendor/fontawesome-free/webfonts/fa-regular-400,woff2: false
-        vendor/fontawesome-free/webfonts/fa-solid-900,woff2: false
-        vendor/fullcalendar/fullcalendar,min,css: false
-        vendor/fullcalendar/fullcalendar,min,js: false
-        vendor/highcharts/highcharts,js: false
-        vendor/highcharts/mapdata/world,js: false
-        vendor/highcharts/modules/drilldown,js: false
-        vendor/highcharts/modules/map,js: false
-        vendor/highcharts/modules/no-data-to-display,js: false
-        vendor/masonry/masonry,pkgd,min,js: false
-        vendor/momentjs/moment,js: false

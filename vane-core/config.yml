@@ -30,6 +30,11 @@ command_customitem:
   # Default: true
   enabled: true
 
+command_enchant:
+  # Enable command enchant
+  # Default: true
+  enabled: true
+
 command_vane:
   # Enable command vane
   # Default: true
@@ -51,7 +56,8 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:prismarine_shard"
       material: "minecraft:prismarine_shard"
 
@@ -62,7 +68,8 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:map"
       material: "minecraft:map"
 
@@ -73,7 +80,8 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:hopper"
       material: "minecraft:hopper"
 
@@ -84,7 +92,8 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:paper"
       material: "minecraft:paper"
 
@@ -97,7 +106,8 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:barrier"
       material: "minecraft:barrier"
 
@@ -110,7 +120,8 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:lime_terracotta"
       material: "minecraft:lime_terracotta"
 
@@ -121,7 +132,8 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:red_terracotta"
       material: "minecraft:red_terracotta"
 
@@ -134,9 +146,22 @@ menus:
       # Default: 1
       amount: 1
 
-      # The item stack material. Also accepts heads from the head library.
+      # The item stack material. Also accepts heads from the head library or from
+      # defined custom items.
       # Default: "minecraft:barrier"
       material: "minecraft:barrier"
+
+# When a player head is broken by a player that exists in /heads, drop the
+# correctly named item as seen in /heads. You can disable this if it interferes
+# with similarily textured heads from other plugins.
+# Default: true
+player_head_drops: true
+
+# Allow loading of player heads in relevant menus. Disabling this will show all
+# player heads using the Steve skin, which may perform better on low-performance
+# servers and clients.
+# Default: true
+player_heads_in_menus: true
 
 resource_pack:
   # Enable resource pack distribution.

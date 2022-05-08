@@ -97,6 +97,9 @@ towns:
   
   
   
+  
+  
+  
  
   # 'default' is the permission set which is auto assigned to any normal town member.
   default:
@@ -114,6 +117,9 @@ towns:
   - towny.command.town.reclaim
   - towny.town.spawn.town
   - towny.chat.town
+  
+  
+  
   
   
   
@@ -223,10 +229,16 @@ towns:
   
   
   
+  
+  
+  
  
   # Ranks contain additional permissions residents will be
   # granted if they are assigned that specific rank.
   ranks:
+    
+    
+    
     
     
     
@@ -337,6 +349,9 @@ towns:
     
     
     
+    
+    
+    
  
     # Currently only an example rank holder with no extra permissions.
     donator:
@@ -388,10 +403,16 @@ towns:
     
     
     
+    
+    
+    
  
     # Currently only an example rank holder with no extra permissions.
     vip:
     - foo.bar
+    
+    
+    
     
     
     
@@ -498,6 +519,9 @@ nations:
   
   
   
+  
+  
+  
  
   # All nation members get these permissions.
   default:
@@ -510,6 +534,9 @@ nations:
   - towny.town.spawn.ally
   - towny.chat.nation
   - towny.chat.alliance
+  
+  
+  
   
   
   
