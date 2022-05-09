@@ -781,7 +781,7 @@ global_nation_settings:
   display_board_onlogin: 'true'
 
   # If true the capital city of nation cannot be neutral/peaceful.
-  capitals_cannot_be_neutral: 'false'
+  capitals_cannot_be_neutral: 'true'
 
   # If enabled, only allow the nation spawn to be set in the capital city.
   capital_spawn: 'true'
@@ -1475,7 +1475,7 @@ economy:
     # If True, only charge death prices for pvp kills. Not monsters/environmental deaths.
     price_death_pvp_only: 'false'
 
-    price_death: '1.0'
+    price_death: '0.0'
 
     price_death_town: '0.0'
 
