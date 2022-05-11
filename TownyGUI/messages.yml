@@ -1,0 +1,140 @@
+TITLE: '&6[&bTownyGUI&6] '
+NO_PERM: '&cYou don''t have enough permissions for that!'
+RELOAD: '&cPlugin reloaded!'
+NO_CONSOLE: '&cSorry, That command can only be performed by a player!'
+SUCCESS_SIGN_MAIN: '&aSuccessfully created a Main Menu sign!'
+SUCCESS_SIGN_TOWN: '&aSuccessfully created a Town Menu sign!'
+SUCCESS_SIGN_TOWNY: '&aSuccessfully created a Towny Menu sign!'
+SUCCESS_SIGN_PLOT: '&aSuccessfully created a Plot Menu sign!'
+SUCCESS_SIGN_RESIDENT: '&aSuccessfully created a Resident Menu sign!'
+SUCCESS_SIGN_NATION: '&aSuccessfully created a Nation Menu sign!'
+SUCCESS_SIGN_TOWNYWORLD: '&aSuccessfully created a TownyWorld Menu sign!'
+GUI_COMMAND_HELP1: '&6/tgui main &0| &6Opens Main Menu!'
+GUI_COMMAND_HELP2: '&6/tgui town &0| &6Opens Town Menu!'
+GUI_COMMAND_HELP3: '&6/tgui towny &0| &6Opens Towny Menu!'
+GUI_COMMAND_HELP4: '&6/tgui resident &0| &6Opens Resident Menu!'
+GUI_COMMAND_HELP5: '&6/tgui plot &0| &6Opens Plot Menu!'
+GUI_COMMAND_HELP6: '&6/tgui nation &0| &6Opens Nation Menu!'
+GUI_COMMAND_HELP7: '&6/tgui townyworld &0| &6Opens TownyWorld Menu!'
+GUI_COMMAND_HELP8: '&6/tgui reload &0| &6Reload the plugin!'
+GUI_COMMAND_HELP9: '&6/tgui version &0| &6Check the plugin version / updates!'
+NATION_DEPOSIT: '&6/nation deposit <AMOUNT>'
+NATION_NATION: '&6/nation <NATION> &0| &6Shows a player the /nation screen of another
+  nation.'
+NATION_NEW: '&6/nation new <NATION_NAME> &0| &6Mayor command to create a nation.'
+NATION_ADD: '&6/nation add <TOWN_NAME> &0| &6King Command to add a town to your nation.'
+NATION_KICK: '&6/nation kick <TOWN_NAME> &0| &6King command to kick a town from your
+  nation.'
+NATION_ALLY_ADD: '&6/nation ally add <NATION_NAME> &0| &6Add''s a nation to your ally
+  list.'
+NATION_ALLY_REMOVE: '&6/nation ally remove <NATION_NAME> &0| &6Remove a nation from
+  your ally list.'
+NATION_ENEMY_ADD: '&6/nation enemy add <NATION_NAME> &0| &6Add''s a nation to your
+  enemy list.'
+NATION_ENEMY_REMOVE: '&6/nation enemy remove <NATION_NAME> &0| &6Remove a nation from
+  your enemy list.'
+NATION_RANK: '&6/nation rank <ADD | REMOVE> <PLAYER_NAME> <RANK_NAME> &0| &6Grant
+  / remove a rank to a resident of the nation.'
+NATION_SET1: '&6/nation set king <PLAYER_NAME> &0| &6King command to change the king
+  of the nation.'
+NATION_SET2: '&6/nation set captial <TOWN_NAME> &0| &6Sets the capitol and king of
+  the nation.'
+NATION_SET3: '&6/nation set taxes <AMOUNT> &0| &6Sets nation-tax applied to the towns
+  within the nation.'
+NATION_SET4: '&6/nation set name <NEW_NAME> &0| &6Sets the nation''s name.'
+NATION_SET5: '&6/nation set title <PLAYER_NAME> <TITLE> &0| &6King command to add
+  a Title to a member of the nation.'
+NATION_SET6: '&6/nation set surname <PLAYER_NAME> <SURNAME> &0| &6King command to
+  add a Suffix to a member of the nation.'
+NATION_SET7: '&6/nation set tag <TAG(4letters)> &0| &6Sets the nation''s tag, which
+  is sometimes used on that chat line.'
+NATION_SET8: '&6/nation set tag clear &0| &6Clears the tag set for the nation.'
+RESIDENT_PLAYER1: '&6/resident &0| &6View information about yourself, Including friends
+  etc'
+RESIDENT_PLAYER2: '&6/resident <PLAYER> &0| &6View information about other players!'
+RESIDENT_FRIEND1: '&6/resident friend add <PLAYER> &0| &6Add online player to your
+  friends list.'
+RESIDENT_FRIEND2: '&6/resident friend add+ <PLAYER> &0| &6Add offline player to your
+  friends list.'
+RESIDENT_FRIEND3: '&6/resident friend remove <PLAYER> &0| &6Remove online player from
+  your friends list.'
+RESIDENT_FRIEND4: '&6/resident friend remove+ <PLAYER> &0| &6Remove offline player
+  from your friends list.'
+RESIDENT_FRIEND5: '&6/resident friend clearlist &0| &6Remove all players from your
+  friends list.'
+RESIDENT_TOGGLE1: '&6/resident toggle map &0| &6Turns on map which refreshes when
+  moving.'
+RESIDENT_TOGGLE2: '&6/resident toggle townclaim &0| &6Auto /town claim while walking.'
+RESIDENT_TOGGLE3: '&6/resident toggle plotborder &0| &6Turns on smokey plot-border
+  view.'
+RESIDENT_TOGGLE4: '&6/resident toggle spy &0| &6Admins can turn on chat-channel spying.'
+RESIDENT_TOGGLE5: '&6/resident toggle reset &0| &6This turns off all modes that are
+  active.'
+RESIDENT_SET1: '&6/resident set perm <ON | OFF> &0| &6Edits the perm line on the resident
+  screen.'
+RESIDENT_SET2: '&6/resident set perm <FRIEND | ALLY | OUTSIDER> <ON |OFF> &0| &6Turn
+  on / off perms for certain groups.'
+RESIDENT_SET3: |-
+  &6/resident set perm <BUILD | DESTROY | SWITCH | ITEMUSE>
+  ��6 <ON | OFF> &0| &6Turns on / off action perms.
+RESIDENT_SET4: "&6/resident set perm <FRIEND | ALLY | OUTSIDER> \n��6<BUILD | DESTROY\
+  \ | SWITCH | ITEMUSE> <ON | OFF> &0| &6Turns on / off action perms for certain groups."
+RESIDENT_SET5: '&6/resident set perm reset &0| &6This takes the perm line seen in
+  the /resident screen and applies it to all plots personally owned by the player
+  typing it.'
+RESIDENT_JAIL1: '&6/resident jail &0| &6Shows bail cost (If TRUE in config).'
+RESIDENT_JAIL2: '&6/resident jail paybail &0| &6Allows a player to pay to get out
+  of jail.'
+TOWN_DEPOSIT: '&6/town deposit <AMOUNT> &0| &6Deposit money into the town bank!'
+TOWN_NEW: '&6/town new <TOWN_NAME> &0| &6To create a new town, If you have enough
+  money Town name must not have a space. Use underscores: ''_'''
+TOWN_KICK: '&6/town kick <PLAYER> &0| &6kick players from your town.'
+TOWN_ADD: '&6/town add <PLAYER> &0| &6Invite players to your town.'
+TOWN_JOIN: '&6/town join &0| &6To join a town, Do /town join <TOWN_NAME> Town name
+  must not have a space. Use underscores: ''_'' Towns must also be ''OPEN'' for you
+  to join without an invite!'
+TOWN_RANK: '&6/town rank <ADD | REMOVE> <PLAYER> <RANK_NAME> &0| &6Grants or removes
+  a rank to a resident of the town.'
+TOWN_TOWN1: '&6/town &0| &6Show information about your town.'
+TOWN_JAIL: '&6/town toggle jail <JAIL_NUMBER> <RESIDENT_NAME> &0| &6Jail / unjail
+  a resident of your town!'
+TOWN_TOWN2: '&6/town <TOWN_NAME> &0| &6Show information about another town.'
+TOWN_CLAIM1: '&6/town claim &0| &6Claim the townblock in which you stand for your
+  town.'
+TOWN_CLAIM2: '&6/town claim outpost &0| &6Claims an outpost for your town.'
+TOWN_CLAIM3: '&6/town claim <#> &0| &6Claims an area of townblocks around you for
+  your town.'
+TOWN_CLAIM4: '&6/town claim auto &0| &6Claims as many townblocks around you as is
+  possible.'
+TOWNY_TOP1: '&6/towny top residents <ALL | TOWN | NATION> &0| &6Show top residents.'
+TOWNY_TOP2: '&6/towny top land <ALL | RESIDENT | TOWN> &0| &6Shows top land owners.'
+TOWNY_WAR1: '&6/towny war stats &0| &6Shows towny war stats.'
+TOWNY_WAR2: '&6/towny war scores &0| &6Shows towny war scores.'
+TOWNY_WAR3: '&6/towny war hud &0| &6Shows towny war information.'
+PLOT_PERMISSION1: '&6/plot perm &0| &6Shows plot information.'
+PLOT_PERMISSION2: '&6/plot perm hud &0| &6Shows plot information in a hud.'
+TOWNYWORLD_WORLD: '&6/townyworld <WORLD> &0| &6Show settings for world.'
+TOWNYWORLD_TOGGLE1: '&6/townyworld toggle claimable &0| &6Turn on/off whether mayors
+  can claim townblocks in the world.'
+TOWNYWORLD_TOGGLE2: '&6/townyworld toggle usingtowny &0| &6Turn on/off whether towny
+  is used in the world.'
+TOWNYWORLD_TOGGLE3: '&6/townyworld toggle pvp &0| &6Turn on/off pvp in the world.'
+TOWNYWORLD_TOGGLE4: '&6/townyworld toggle forcepvp &0| &6Turn on/off whether pvp is
+  forced on in all towns in the world.'
+TOWNYWORLD_TOGGLE5: '&6/townyworld toggle explosion &0| &6Turn on/off whether explosions
+  are on in the wilderness/towns in the world.'
+TOWNYWORLD_TOGGLE6: '&6/townyworld toggle forceexplosion &0| &6Force explosions on
+  in that world.'
+TOWNYWORLD_TOGGLE7: '&6/townyworld toggle fire &0| &6Turn on/off whether firespread
+  is on in the wilderness/towns in the world.'
+TOWNYWORLD_TOGGLE8: '&6/townyworld toggle townmobs &0| &6Turn on/off hostile mobspawning
+  in towns in the world.'
+TOWNYWORLD_TOGGLE9: '&6/townyworld toggle worldmobs &0| &6Turn on/off the mobs listed
+  in the world mobs in the world.'
+TOWNYWORLD_TOGGLE10: '&6/townyworld toggle revertunclaim &0| &6Turn on/off the revert
+  on unclaim feature for that world.'
+TOWNYWORLD_TOGGLE11: '&6/townyworld toggle revertexpl &0| &6Turn on/off the reverting
+  explosions in the wilderness feature for that world.'
+TOWNYWORLD_SET1: '&6/townyworld set wildname <NAME> &0| &6Sets name of the wilderness.'
+TOWNYWORLD_SET2: '&6/townyworld set wildregen {Creeper,EnderCrystal,EnderDragon,Fireball,SmallFireball,LargeFireball,TNTPrimed,ExplosiveMinecart}
+  &0| &6Sets what explosions are reverted in the wilderness.'
