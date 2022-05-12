@@ -57,45 +57,45 @@ levels:
   town_level:
   - numResidents: 1
     debtCapModifier: 1.0
-    namePostfix: 'Siedlung '
+    namePostfix: ''
     mayorPrefix: 'Oberpfadfinder '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Siedlung '
     mayorPostfix: ''
     townBlockLimit: 30
     upkeepModifier: 1.0
-    townOutpostLimit: 0
+    townOutpostLimit: 2
   - numResidents: 3
     debtCapModifier: 1.0
-    namePostfix: 'Dorf '
+    namePostfix: ''
     mayorPrefix: 'Landesherr '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Dorf '
     mayorPostfix: ''
     townBlockLimit: 60
     upkeepModifier: 4.0
-    townOutpostLimit: 0
+    townOutpostLimit: 3
   - numResidents: 6
     debtCapModifier: 1.0
-    namePostfix: 'Stadt '
+    namePostfix: ''
     mayorPrefix: 'Bürgermeister '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Stadt '
     mayorPostfix: ''
     townBlockLimit: 180
     upkeepModifier: 8.0
-    townOutpostLimit: 1
+    townOutpostLimit: 5
   - numResidents: 8
     debtCapModifier: 1.0
-    namePostfix: ' Metropole'
+    namePostfix: ''
     mayorPrefix: 'Bürgermeister '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Metropole '
     mayorPostfix: ''
     townBlockLimit: 300
     upkeepModifier: 12.0
-    townOutpostLimit: 1
-  - numResidents: 10
+    townOutpostLimit: 7
+  - numResidents: 1000
     debtCapModifier: 1.0
     namePostfix: ' (Kleinstadt)'
     mayorPrefix: 'Viscount '
@@ -1436,7 +1436,7 @@ economy:
     price_reclaim_ruined_town: '500.0'
 
     # How much it costs to make an outpost. An outpost isn't limited to being on the edge of town.
-    price_outpost: '500.0'
+    price_outpost: '432'
 
     # The price for a town to expand one townblock.
     price_claim_townblock: '72'
