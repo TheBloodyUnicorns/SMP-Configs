@@ -55,45 +55,45 @@ permissions: ''
 levels:
   # default Town levels.
   town_level:
-  - numResidents: 0
-    debtCapModifier: 1.0
-    namePostfix: ' Ruine'
-    mayorPrefix: 'Spirit '
-    townBlockBuyBonusLimit: 0
-    namePrefix: ''
-    mayorPostfix: ''
-    townBlockLimit: 1
-    upkeepModifier: 1.0
-    townOutpostLimit: 0
   - numResidents: 1
     debtCapModifier: 1.0
-    namePostfix: ' (Siedlung)'
-    mayorPrefix: 'Hermit '
+    namePostfix: 'Siedlung '
+    mayorPrefix: 'Oberpfadfinder '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 16
+    townBlockLimit: 30
     upkeepModifier: 1.0
     townOutpostLimit: 0
-  - numResidents: 2
+  - numResidents: 3
     debtCapModifier: 1.0
-    namePostfix: ' (Kleines Dorf)'
-    mayorPrefix: 'Chief '
+    namePostfix: 'Dorf '
+    mayorPrefix: 'Landesherr '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 32
-    upkeepModifier: 1.0
-    townOutpostLimit: 1
+    townBlockLimit: 60
+    upkeepModifier: 4.0
+    townOutpostLimit: 0
   - numResidents: 6
     debtCapModifier: 1.0
-    namePostfix: ' (Dorf)'
-    mayorPrefix: 'Baron Von '
+    namePostfix: 'Stadt '
+    mayorPrefix: 'Bürgermeister '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
-    townBlockLimit: 96
-    upkeepModifier: 1.0
+    townBlockLimit: 180
+    upkeepModifier: 8.0
+    townOutpostLimit: 1
+  - numResidents: 8
+    debtCapModifier: 1.0
+    namePostfix: ' Metropole'
+    mayorPrefix: 'Bürgermeister '
+    townBlockBuyBonusLimit: 0
+    namePrefix: ''
+    mayorPostfix: ''
+    townBlockLimit: 300
+    upkeepModifier: 12.0
     townOutpostLimit: 1
   - numResidents: 10
     debtCapModifier: 1.0
@@ -1422,7 +1422,7 @@ economy:
     price_new_nation: '2000'
 
     # How much it costs to start a town.
-    price_new_town: '500'
+    price_new_town: '3500'
 
     # The base cost a town has to pay to merge with another town. The town that initiates the merge pays the cost.
     price_town_merge: '0'
@@ -1439,7 +1439,7 @@ economy:
     price_outpost: '500.0'
 
     # The price for a town to expand one townblock.
-    price_claim_townblock: '64'
+    price_claim_townblock: '72'
 
     # How much every additionally claimed townblock increases in cost. Set to 1 to deactivate this. 1.3 means +30% to every bonus claim block cost.
     price_claim_townblock_increase: '1.0'
@@ -1570,7 +1570,7 @@ economy:
 
     # The server's daily charge on each town. If a town fails to pay this upkeep
     # all of it's residents are kicked and the town is removed.
-    price_town_upkeep: '10.0'
+    price_town_upkeep: '144'
 
     # Uses total amount of owned plots to determine upkeep instead of the town level (Number of residents)
     # calculated by (number of claimed plots X price_town_upkeep).
