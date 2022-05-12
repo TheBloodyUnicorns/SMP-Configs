@@ -55,6 +55,16 @@ permissions: ''
 levels:
   # default Town levels.
   town_level:
+  - numResidents: 0
+    debtCapModifier: 1.0
+    namePostfix: ' Ruinen'
+    mayorPrefix: 'Spirit '
+    townBlockBuyBonusLimit: 0
+    namePrefix: ''
+    mayorPostfix: ''
+    townBlockLimit: 1
+    upkeepModifier: 1.0
+    townOutpostLimit: 0
   - numResidents: 1
     debtCapModifier: 1.0
     namePostfix: ''
@@ -88,53 +98,13 @@ levels:
   - numResidents: 8
     debtCapModifier: 1.0
     namePostfix: ''
-    mayorPrefix: 'Bürgermeister '
+    mayorPrefix: 'Oberbürgermeister '
     townBlockBuyBonusLimit: 0
     namePrefix: 'Metropole '
     mayorPostfix: ''
     townBlockLimit: 300
     upkeepModifier: 12.0
     townOutpostLimit: 7
-  - numResidents: 1000
-    debtCapModifier: 1.0
-    namePostfix: ' (Kleinstadt)'
-    mayorPrefix: 'Viscount '
-    townBlockBuyBonusLimit: 0
-    namePrefix: ''
-    mayorPostfix: ''
-    townBlockLimit: 160
-    upkeepModifier: 1.0
-    townOutpostLimit: 2
-  - numResidents: 14
-    debtCapModifier: 1.0
-    namePostfix: ' (Stadt)'
-    mayorPrefix: 'Count Von '
-    townBlockBuyBonusLimit: 0
-    namePrefix: ''
-    mayorPostfix: ''
-    townBlockLimit: 224
-    upkeepModifier: 1.0
-    townOutpostLimit: 2
-  - numResidents: 20
-    debtCapModifier: 1.0
-    namePostfix: ' (Großstadt)'
-    mayorPrefix: 'Earl '
-    townBlockBuyBonusLimit: 0
-    namePrefix: ''
-    mayorPostfix: ''
-    townBlockLimit: 320
-    upkeepModifier: 1.0
-    townOutpostLimit: 3
-  - numResidents: 24
-    debtCapModifier: 1.0
-    namePostfix: ' (Metropole)'
-    mayorPrefix: 'Duke '
-    townBlockBuyBonusLimit: 0
-    namePrefix: ''
-    mayorPostfix: ''
-    townBlockLimit: 384
-    upkeepModifier: 1.0
-    townOutpostLimit: 3
   # default Nation levels.
   nation_level:
   - kingPostfix: ''
@@ -902,7 +872,7 @@ plugin:
   towny_top_size: '10'
 
   # If enabled, particles will appear around town, nation, outpost & jail spawns.
-  visualized_spawn_points_enabled: 'true'
+  visualized_spawn_points_enabled: 'false'
 
   # A blacklist used for validating town/nation names.
   # Names must be seperated by a comma: name1,name2
