@@ -1802,7 +1802,7 @@ bank:
 
   # If true players will only be able to use /t deposit, /t withdraw, /n deposit & /n withdraw while inside bank plots belonging to the town or nation capital respectively.
   # Home plots will also allow deposit and withdraw commands.
-  is_banking_limited_to_bank_plots: 'true'
+  is_banking_limited_to_bank_plots: 'false'
 
 
 ############################################################
