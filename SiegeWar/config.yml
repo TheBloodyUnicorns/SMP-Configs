@@ -398,13 +398,13 @@ war:
       # This setting applies to Monday, Tuesday, Wednesday, Thursday, and Friday.
       # The format is HOUR:MINUTE.
       # The default values are all at ten past the hour, so that the critical point of the battle (the final minutes), will fall on the hour.
-      weekday_start_times_utc: 19:10,21:10
+      weekday_start_times_utc: 19:00
  
       # This value determines the UTC weekend times when each battle session will start.
       # This setting applies to Saturday and Sunday.
       # The format is HOUR:MINUTE.
       # The default values are all at ten past the hour, so that the critical point of the battle (the final minutes), will fall on the hour.
-      weekend_start_times_utc: 12:10,14:10,16:10,18:10,20:10
+      weekend_start_times_utc: 19:00
  
       # This value determines the duration of each battle session.
       # After a battle session ends,
