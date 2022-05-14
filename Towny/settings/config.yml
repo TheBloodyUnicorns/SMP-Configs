@@ -503,10 +503,10 @@ global_town_settings:
   teleport_warmup_time: '0'
 
   # When set to true, if players are currently in a spawn warmup, moving will cancel their spawn.
-  movement_cancels_spawn_warmup: 'false'
+  movement_cancels_spawn_warmup: 'true'
 
   # When set to true, if players are damaged in any way while in a spawn warmup, their spawning will be cancelled.
-  damage_cancels_spawn_warmup: 'false'
+  damage_cancels_spawn_warmup: 'true'
 
   # Number of seconds that must pass before a player can use /t spawn or /res spawn.
   spawn_cooldown_time: '30'
@@ -1758,7 +1758,7 @@ jail:
   outlaw_jail_hours: '1'
 
   #If true jailed players can use items that teleport, ie: Ender Pearls & Chorus Fruit, but are still barred from using other methods of teleporting.
-  jail_allows_teleport_items: 'false'
+  jail_allows_teleport_items: 'true'
 
   #If false jailed players can use /town leave, and escape a jail.
   jail_denies_town_leave: 'false'
