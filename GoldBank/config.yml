@@ -1,6 +1,0 @@
-locale: de_de
-decimal_format: '#,##0'
-balance_maximum: 0
-withdraw_maximum: 186624
-fake_accounts: true
-configVersion: 2
